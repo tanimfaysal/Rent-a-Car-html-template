@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>SOFDRIVE</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- extranal CSS Files -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/font-awesome.css" rel="stylesheet">
+  
+
+  <!-- Theme Main CSS File -->
+  <link href="css/style.css" rel="stylesheet">
+
+       
+</head>
+
+<body>
+<div class="top_header_wrapper">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-2 col-md-2 col-lg-2">
+                <div class="logo_part">
+                    <a href="#"><img src="images/Logo.png" alt="logo"/></a>
+                </div>
+                <div class="mobile_dial_icon">
+                    <a href="#"><img src="images/phone_icon_small.png" /></a>
+                </div>
+                
+            </div>
+            <div class="col-sm-10 col-md-10 col-lg-10">
+                <input class="switcher" type="checkbox" id="menu">
+                   <label class="open menu_lebel" for="menu">
+                      <i id="test" onclick="myFunction(this)" class="fa fa-bars"></i>
+                   </label>
+                
+                <div class="top_nav_part topnav">
+                    <ul>
+                        <li><a href="#">Фиксирани курсове</a></li>
+                        <li><a href="#">За нас</a></li>
+                        <li><a href="#">Блог</a></li>
+                        <li class="border_only"><a href="#">Контакти</a></li>
+                    </ul>
+                    <div class="right_nav">
+                     <ul>
+                        <li><a href="#"><img src="images/Icons.png" /><!--<i class="fa fa-clock-o" aria-hidden="true"></i>-->от 21:00 до 07:00</a></li>
+                        <li><a href="#"><img src="images/Iconsphone.png" /><!--<i class="fa fa-phone" aria-hidden="true"></i>-->+359 897 888 883</a></li>
+                        
+                    </ul>
+                </div>
+                </div>
+            </div>
+           
+        </div>
+        
+    </div>
+</div>
+<div class="about_wrapper">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-12">
+                <div class="about_heading">
+                    <h2>За нас</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-8 col-md-8 col-lg-8">
+                <div class="about_texts">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent auctor purus luctus enim egestas, ac scelerisque ante pulvinar. <br><br>
+Donec ut rhoncus ex. Suspendisse ac rhoncus nisl, eu tempor urna. Curabitur vel bibendum lorem. Morbi convallis convallis diam sit amet lacinia. Aliquam in elementum tellus.
+
+                    </p>
+                </div>
+            </div>
+            <div class="col-sm-4 col-md-4 col-lg-4"></div>
+        </div>
+    </div>
+</div>
+
+
+<div class="footer_wrapper">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-12">
+                <div class="footer_logo">
+                   <img src="images/Logo.png" alt="">
+                </div>
+                <div class="footer_icons">
+                    <ul>
+                        <li><a href="#"><img src="images/Facebook.png" /></a></li>
+                        <li><a href="#"><img src="images/insta.png" /></a></li>
+                        
+                    </ul>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</div>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<script>
+    function myFunction(x) {
+        var className=$('#test').attr('class');
+        let result = className.substring(3);
+        if(result=='fa-bars'){
+            //alert('hi');
+            $( ".fa-bars" ).toggleClass('fa-bars').toggleClass('fa-times');
+       }else if(result=='fa-times'){
+            //alert('hey');
+            $( ".fa-times" ).toggleClass('fa-times').toggleClass('fa-bars');
+        }
+       
+    }
+</script>
+</body>
+
+</html>
