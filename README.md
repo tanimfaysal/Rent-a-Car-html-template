@@ -1,2 +1,3 @@
 # Rent-a-Car-html-template
-Its Car rental html website 
+It's A Car rental html website , please do not sell it, only for learning purpose.
+@faysaltanim
